@@ -45,7 +45,7 @@
     "ember",
     "ember.js",
     "ember-cli",
-    "ember-addon"
+    "ember-addon",
     "i18n",
 	"locale"
   ],
