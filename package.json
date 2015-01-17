@@ -1,7 +1,7 @@
 {
   "name": "ember-cli-i18n-route",
-  "version": "0.0.0",
-  "description": "The default blueprint for ember-cli addons.",
+  "version": "0.0.1",
+  "description": "A route mixin for storing locale in the URL",
   "directories": {
     "doc": "doc",
     "test": "tests"
@@ -11,12 +11,19 @@
     "build": "ember build",
     "test": "ember test"
   },
-  "repository": "",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kellyselden/ember-cli-i18n-route.git"
+  },
   "engines": {
     "node": ">= 0.10.0"
   },
-  "author": "",
+  "author": "Kelly Selden",
   "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kellyselden/ember-cli-i18n-route/issues"
+  },
+  "homepage": "https://github.com/kellyselden/ember-cli-i18n-route",
   "devDependencies": {
     "broccoli-asset-rev": "^2.0.0",
     "broccoli-ember-hbs-template-compiler": "^1.6.1",
@@ -35,7 +42,12 @@
     "glob": "^4.0.5"
   },
   "keywords": [
+    "ember",
+    "ember.js",
+    "ember-cli",
     "ember-addon"
+    "i18n",
+	"locale"
   ],
   "ember-addon": {
     "configPath": "tests/dummy/config"
