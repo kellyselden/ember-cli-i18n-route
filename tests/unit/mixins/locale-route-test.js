@@ -1,5 +1,5 @@
 import Ember from 'ember';
-import LocaleRouteMixin from '../../../mixins/locale-route';
+import LocaleRouteMixin from 'ember-cli-i18n-route/mixins/locale-route';
 import { module, test } from 'qunit';
 
 module('LocaleRouteMixin');

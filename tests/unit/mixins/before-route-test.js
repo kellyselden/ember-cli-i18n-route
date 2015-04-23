@@ -1,5 +1,5 @@
 import Ember from 'ember';
-import BeforeRouteMixin from '../../../mixins/before-route';
+import BeforeRouteMixin from 'ember-cli-i18n-route/mixins/before-route';
 import { module, test } from 'qunit';
 
 module('BeforeRouteMixin');
